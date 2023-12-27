@@ -1,4 +1,4 @@
-let score= "33"
+/*let score= "33"
 let score2= "33feaf"
 let score3= null;
 let score4;
@@ -35,7 +35,7 @@ let score6= 66;
 let conversion6 = String(score6);
 console.log(conversion6);
 console.log(typeof conversion6)
-
+*/
 //"33" => 33 (type: number)
 //"33fef" => NaN (type: number)
 // null =>  0 (type: number)
@@ -46,7 +46,7 @@ console.log(typeof conversion6)
 //boolean(true) => true (type: string)
 
 
-let score7 = ""
+/*let score7 = ""
 let conversion7= Boolean(score7)
 console.log(conversion7)
 console.log(typeof conversion7);
@@ -77,5 +77,57 @@ console.log(conversion10)
 //0=> false
 
 
+*/
+
+/***********************OPERATIONS***************************** */
 
 
+let value= "fff"
+let negvalue= -value;
+console.log(negvalue)//NaN
+
+let value1= 44
+let negvalue1= -value1;
+console.log(negvalue1)
+
+let str1= "hello"
+let str2= 44
+console.log(str1 + str2);
+
+
+console.log("1"+"2"+3)
+console.log(1+"2");
+console.log("1"+2);
+console.log(2+3+"6")
+
+console.log(null+4);//4
+console.log(null+"4"+7); //null47
+console.log(4+7+"8"+null)//118null
+console.log(undefined+44); //NaN
+console.log(undefined+77+"fsdf"); //NaNfsdf
+console.log(+true);//1
+console.log(-true);//-1
+console.log(+false); //0
+console.log(-false);//-0
+console.log(+"") //0
+console.log(-"")//-0
+console.log(+null) //0
+console.log(+undefined) //NaN
+//console.log(true+); error
+
+let num1, num2, num3;
+num1=num2=num3=2+2
+console.log(num1)
+let gameCounter=100;
+++gameCounter;
+console.log(gameCounter)
+
+let x= 3
+let y= ++x
+console.log(x , y)
+let x1=5n
+let y1= x1++;
+console.log(x1, y1)
+console.log(y1);
+let z1= y1+x1;
+console.log(z1);
