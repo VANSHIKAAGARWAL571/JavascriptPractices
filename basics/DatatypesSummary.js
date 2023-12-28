@@ -19,7 +19,7 @@ const myfunc= function(){
 console.log("hello")
 }
 
-console.log(myfunc);
+console.log(myfunc());
 console.log(typeof(heros))
 console.log(typeof(myfunc))
 //Number: Number
