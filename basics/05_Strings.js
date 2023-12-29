@@ -21,3 +21,16 @@ const url ="https://vanshika.agarwal.com/vanshika%20agarwal"
 console.log(url.replace("%20", "-"))
 console.log(url.includes("vanshika"))
 console.log(gameName.split("-"))
+const str = "The quick red fox jumped over the lazy dog's back.";
+
+const iterator = str[Symbol.iterator]();
+let theChar = iterator.next();
+
+while (!theChar.done && theChar.value !== ' ') {
+  console.log(theChar.value);
+  theChar = iterator.next();
+}
+
+
+
+
