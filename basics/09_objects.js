@@ -31,5 +31,14 @@ person.email= function myemail(){
     }
 
     const person1= new Person("hi","hello");
-    console.log(person1.firstname)
+    console.log(person1.firstname);
+    console.log(person1)
    
+    const orgObject = { company: 'ABC Corp' };
+
+    const employee = Object.create(orgObject, { name: { value: 'EmployeeOne' } });
+
+console.log(employee.company); // { company: "ABC Corp" }
+console.log(employee.name); 
+console.log(typeof(employee))
+console.log(orgObject.name)
